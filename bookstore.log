@@ -1,0 +1,85 @@
+2023-04-03 08:50:45 [main] INFO  c.e.d.controller.AuthorControllerIT - Starting AuthorControllerIT using Java 19.0.2 on MacBook-Pro.local with PID 1907 (started by mwozniak in /Users/mwozniak/Developer/Programming/Java/random/demo)
+2023-04-03 08:50:45 [main] INFO  c.e.d.controller.AuthorControllerIT - No active profile set, falling back to default profiles: default
+2023-04-03 08:50:45 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-03 08:50:45 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 19 ms. Found 2 JPA repository interfaces.
+2023-04-03 08:50:45 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-04-03 08:50:46 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-04-03 08:50:46 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-03 08:50:46 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-03 08:50:47 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2023-04-03 08:50:47 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2023-04-03 08:50:47 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2023-04-03 08:50:47 [main] INFO  c.e.d.controller.AuthorControllerIT - Started AuthorControllerIT in 2.327 seconds (JVM running for 2.761)
+2023-04-03 08:50:47 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-03 08:50:47 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-04-03 08:50:47 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-04-03 08:50:53 [main] INFO  com.example.demo.BookAplication - Starting BookAplication using Java 19 on MacBook-Pro.local with PID 1928 (/Users/mwozniak/Developer/Programming/Java/random/demo/target/classes started by mwozniak in /Users/mwozniak/Developer/Programming/Java/random/demo)
+2023-04-03 08:50:53 [main] INFO  com.example.demo.BookAplication - No active profile set, falling back to default profiles: default
+2023-04-03 08:50:54 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-03 08:50:54 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 17 ms. Found 2 JPA repository interfaces.
+2023-04-03 08:50:54 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-04-03 08:50:54 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-04-03 08:50:54 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
+2023-04-03 08:50:54 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-04-03 08:50:54 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 537 ms
+2023-04-03 08:50:54 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-04-03 08:50:54 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-04-03 08:50:55 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-03 08:50:55 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-03 08:50:55 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-03 08:50:55 [main] INFO  com.example.demo.BookAplication - Started BookAplication in 1.746 seconds (JVM running for 1.871)
+2023-04-03 08:51:12 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-03 08:51:12 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-04-03 08:51:12 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023-04-03 08:52:13 [http-nio-8080-exec-3] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; nested exception is java.lang.NumberFormatException: For input string: "books"]
+2023-04-03 08:52:17 [http-nio-8080-exec-4] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; nested exception is java.lang.NumberFormatException: For input string: "books"]
+2023-04-03 08:52:18 [http-nio-8080-exec-5] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; nested exception is java.lang.NumberFormatException: For input string: "books"]
+2023-04-03 08:52:19 [http-nio-8080-exec-6] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; nested exception is java.lang.NumberFormatException: For input string: "books"]
+2023-04-03 08:52:21 [http-nio-8080-exec-7] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; nested exception is java.lang.NumberFormatException: For input string: "books"]
+2023-04-03 08:53:23 [http-nio-8080-exec-2] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Could not resolve subtype of [simple type, class com.example.demo.model.Book]: missing type id property 'type'; nested exception is com.fasterxml.jackson.databind.exc.InvalidTypeIdException: Could not resolve subtype of [simple type, class com.example.demo.model.Book]: missing type id property 'type'<LF> at [Source: (PushbackInputStream); line: 1, column: 31]]
+2023-04-03 08:53:28 [http-nio-8080-exec-3] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Could not resolve subtype of [simple type, class com.example.demo.model.Book]: missing type id property 'type'; nested exception is com.fasterxml.jackson.databind.exc.InvalidTypeIdException: Could not resolve subtype of [simple type, class com.example.demo.model.Book]: missing type id property 'type'<LF> at [Source: (PushbackInputStream); line: 1, column: 31]]
+2023-04-03 08:53:33 [http-nio-8080-exec-4] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Could not resolve subtype of [simple type, class com.example.demo.model.Book]: missing type id property 'type'; nested exception is com.fasterxml.jackson.databind.exc.InvalidTypeIdException: Could not resolve subtype of [simple type, class com.example.demo.model.Book]: missing type id property 'type'<LF> at [Source: (PushbackInputStream); line: 1, column: 31]]
+2023-04-03 08:53:34 [http-nio-8080-exec-5] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Could not resolve subtype of [simple type, class com.example.demo.model.Book]: missing type id property 'type'; nested exception is com.fasterxml.jackson.databind.exc.InvalidTypeIdException: Could not resolve subtype of [simple type, class com.example.demo.model.Book]: missing type id property 'type'<LF> at [Source: (PushbackInputStream); line: 1, column: 31]]
+2023-04-03 08:55:59 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-03 08:55:59 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-04-03 08:55:59 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-04-03 08:56:02 [main] INFO  com.example.demo.BookAplication - Starting BookAplication using Java 19 on MacBook-Pro.local with PID 2150 (/Users/mwozniak/Developer/Programming/Java/random/demo/target/classes started by mwozniak in /Users/mwozniak/Developer/Programming/Java/random/demo)
+2023-04-03 08:56:02 [main] INFO  com.example.demo.BookAplication - No active profile set, falling back to default profiles: default
+2023-04-03 08:56:02 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-03 08:56:02 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15 ms. Found 2 JPA repository interfaces.
+2023-04-03 08:56:02 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-04-03 08:56:02 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-04-03 08:56:02 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
+2023-04-03 08:56:02 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-04-03 08:56:02 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 533 ms
+2023-04-03 08:56:02 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-04-03 08:56:02 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-04-03 08:56:03 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-03 08:56:03 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-03 08:56:03 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-03 08:56:03 [main] INFO  com.example.demo.BookAplication - Started BookAplication in 1.605 seconds (JVM running for 1.728)
+2023-04-03 08:56:11 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-03 08:56:11 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-04-03 08:56:11 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2023-04-03 08:58:40 [http-nio-8080-exec-5] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Could not resolve type id 'newType' as a subtype of `com.example.demo.model.Book`: known type ids = [fiction]; nested exception is com.fasterxml.jackson.databind.exc.InvalidTypeIdException: Could not resolve type id 'newType' as a subtype of `com.example.demo.model.Book`: known type ids = [fiction]<LF> at [Source: (PushbackInputStream); line: 1, column: 10]]
+2023-04-03 08:58:42 [http-nio-8080-exec-6] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Could not resolve type id 'newType' as a subtype of `com.example.demo.model.Book`: known type ids = [fiction]; nested exception is com.fasterxml.jackson.databind.exc.InvalidTypeIdException: Could not resolve type id 'newType' as a subtype of `com.example.demo.model.Book`: known type ids = [fiction]<LF> at [Source: (PushbackInputStream); line: 1, column: 10]]
+2023-04-03 08:58:45 [http-nio-8080-exec-7] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Could not resolve type id 'newType' as a subtype of `com.example.demo.model.Book`: known type ids = [fiction]; nested exception is com.fasterxml.jackson.databind.exc.InvalidTypeIdException: Could not resolve type id 'newType' as a subtype of `com.example.demo.model.Book`: known type ids = [fiction]<LF> at [Source: (PushbackInputStream); line: 1, column: 10]]
+2023-04-03 08:59:22 [http-nio-8080-exec-8] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Could not resolve type id 'newType' as a subtype of `com.example.demo.model.Book`: known type ids = [fiction]; nested exception is com.fasterxml.jackson.databind.exc.InvalidTypeIdException: Could not resolve type id 'newType' as a subtype of `com.example.demo.model.Book`: known type ids = [fiction]<LF> at [Source: (PushbackInputStream); line: 1, column: 10]]
+2023-04-03 09:04:08 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-03 09:04:08 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-04-03 09:04:08 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-04-03 09:04:14 [main] INFO  c.e.d.controller.AuthorControllerIT - Starting AuthorControllerIT using Java 19.0.2 on MacBook-Pro.local with PID 2395 (started by mwozniak in /Users/mwozniak/Developer/Programming/Java/random/demo)
+2023-04-03 09:04:14 [main] INFO  c.e.d.controller.AuthorControllerIT - No active profile set, falling back to default profiles: default
+2023-04-03 09:04:15 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-03 09:04:15 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 17 ms. Found 2 JPA repository interfaces.
+2023-04-03 09:04:15 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-04-03 09:04:15 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-04-03 09:04:16 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-03 09:04:16 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-03 09:04:16 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2023-04-03 09:04:16 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2023-04-03 09:04:16 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+2023-04-03 09:04:16 [main] INFO  c.e.d.controller.AuthorControllerIT - Started AuthorControllerIT in 2.328 seconds (JVM running for 2.756)
+2023-04-03 09:04:17 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-03 09:04:17 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-04-03 09:04:17 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
